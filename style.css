@@ -1,0 +1,186 @@
+.title,
+p,
+.bmi,
+.discover,
+.h3bottom,
+.bmipic,
+.figureout {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.title-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  justify-content: center;
+  border: solid blueviolet 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.title h1 {
+  font-size: 40px;
+}
+
+.workout-giph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.giphy-embed {
+  height: 200px;
+}
+
+.bmi {
+  font-family: Impact;
+  text-transform: uppercase;
+  color: darkblue;
+  margin: 10px;
+}
+
+.bmi-butterfly {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 5;
+}
+
+.discover {
+  text-align: center;
+  font-family: "Sofia", sans-serif;
+  font-size: 20px;
+}
+
+.h3bottom {
+  text-align: center;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  background-color: rgba(148, 187, 233, 1);
+}
+
+.bmipic {
+  float: left;
+  padding: 0 20px 20px 0;
+}
+
+.figureout {
+  text-align: center;
+  color: red;
+}
+
+.BMI-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 50px;
+}
+
+.BMIcalculator {
+  background-color: lightgrey;
+  padding: 30px 30px;
+  width: 350px;
+  height: 300px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 25px 25px 30px rgba(0, 0, 0, 0.15);
+  border: solid blueviolet 2px;
+}
+
+.heat {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.container h1 {
+  background: #024b94;
+  color: white;
+  text-align: center;
+  font-size: 23px;
+  letter-spacing: 1px;
+  margin-top: -30px;
+  margin-left: -30px;
+  margin-right: -30px;
+  margin-bottom: 40px;
+}
+
+.display {
+  box-shadow: 0 0 20px rgba(0, 139, 253, 0.25);
+  margin-bottom: 60px;
+}
+
+#result {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #1d8d13;
+}
+
+#category {
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.row span {
+  font-weight: 500;
+}
+
+input[type="range"] {
+  width: 70%;
+  height: 3.5px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: black;
+  border-radius: 5px;
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 15px;
+  weight: 15px;
+  background-color: #1c1c1c;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+footer {
+  height: 100px;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  text-align: center;
+  padding-top: 10px;
+  font-family: "arial";
+  color: blueviolet;
+}
