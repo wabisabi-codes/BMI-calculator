@@ -9,11 +9,6 @@ p,
   margin-right: 100px;
 }
 
-.title-box {
-  display: flex;
-  flex-direction: row;
-}
-
 .title {
   justify-content: center;
   border: solid blueviolet 8px;
@@ -27,23 +22,13 @@ p,
     rgba(238, 174, 202, 1) 0%,
     rgba(148, 187, 233, 1) 100%
   );
-  padding-left: 250px;
-  padding-right: 250px;
+
+  height: 300px;
+  width: 2700px;
 }
 
 .title h1 {
-  font-size: 40px;
-}
-
-.workout-giph {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-bottom: 5px;
-}
-
-.giphy-embed {
-  height: 200px;
+  font-size: 70px;
 }
 
 .bmi {
@@ -60,10 +45,33 @@ p,
   flex: 5;
 }
 
-.discover {
-  text-align: center;
-  font-family: "Sofia", sans-serif;
+.bmipic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  padding: 50px;
+}
+
+.bmipic img {
+  border: solid black 3px;
+  border-radius: 50px;
+}
+
+.information {
+  display: flex;
+  flex-direction: row;
+
+  padding: 50px;
+}
+
+.information p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
+  line-height: 35px;
+
+  text-align: center;
 }
 
 .h3bottom {
@@ -72,17 +80,19 @@ p,
   display: flex;
   justify-content: center;
   font-size: 1.5rem;
+
   background-color: rgba(148, 187, 233, 1);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.bmipic {
-  float: left;
-  padding: 0 20px 20px 0;
-}
+/*BMI calculator*/
 
 .figureout {
   text-align: center;
   color: red;
+
+  font-size: 25px;
 }
 
 .BMI-box {
@@ -170,6 +180,57 @@ input[type="range"]::-webkit-slider-thumb {
   background-color: #1c1c1c;
   border-radius: 50%;
   cursor: pointer;
+}
+
+/* End calculator*/
+
+.discover {
+  border: blueviolet solid 10px;
+  padding-bottom: 5px;
+}
+
+.discover h4 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+
+.programs p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.trainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.trainer img {
+  border: solid rgba(148, 187, 233, 1) 5px;
+  border-radius: 100px;
+}
+
+.trainer-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  padding-bottom: 50px;
+}
+
+.trainer-btns button {
+  width: 300px;
+  height: 100px;
+
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(148, 187, 233, 1);
+  border-radius: 50px;
 }
 
 footer {
